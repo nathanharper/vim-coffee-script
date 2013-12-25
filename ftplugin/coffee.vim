@@ -402,3 +402,7 @@ command! -range=% -bar -nargs=* CoffeeRun
 \        call s:CoffeeRun(<line1>, <line2>, <q-args>)
 command! -range=% -bang -bar -nargs=* CoffeeLint
 \        call s:CoffeeLint(<line1>, <line2>, <q-bang>, <q-args>)
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
